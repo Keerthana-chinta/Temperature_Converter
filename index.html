@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div id="box">
+    <p id="header1"><i><strong>TEMPERATURE CONVERTER</strong></i>
+    <img src="TemparatureIcon.png" alt="Icon" width="80" height="80">
+    </p>
+    <center>
+    <label for="celsius"><strong>Celsius:</strong>
+    </label>
+    <br>
+    <input type="text" id="celsius" placeholder="Enter temperature in Celsius">
+<br>
+<br>
+    <label for="fahrenheit"><strong>Fahrenheit:<strong></label>
+      <br>
+    <input type="text" id="fahrenheit" placeholder="Enter temperature in Fahrenheit">
+
+<br>
+<br>
+<label for="kelvin"><strong>Kelvin:<strong></label>
+  <br>
+<input type="text" id="kelvin" placeholder="Enter temperature in Kelvin">
+<br>
+<br>
+    <button id="convertbutton" type="submit"onclick="convertTemperature()">Convert</button>
+    <button id="resetbutton" type="button" onclick="resetTemperature()">Reset</button>
+<center>
+</div>
+</body>
+</html>
